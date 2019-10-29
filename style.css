@@ -621,6 +621,75 @@ button:focus {
 	letter-spacing: 0.5px;
 }
 
+/*--------*/
+/* EDUCATION */
+
+#mu-education {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-education-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-education-header {
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 0 120px;
+	width: 100%;
+}
+
+.mu-heading-title {
+	color: #1c1b1b;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.mu-education-content{
+	display: inline;
+	float: left;
+	margin-top: 70px;
+	width: 100%;
+}
+
+.mu-education-content-single {
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 25px 10px;
+	width: 100%;
+}
+
+.mu-education-icon-box {
+	font-size: 30px;
+	margin-bottom: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+}
+
+.mu-education-content-single h4{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.mu-education-content-single p {
+	font-size: 14px;
+	margin-bottom: 0;
+	color: #555;
+	letter-spacing: 0.5px;
+}
 
 /*--------------------*/
 /* PORTFOLIO */
@@ -780,7 +849,7 @@ button:focus {
 /*--------------------*/
 
 #mu-testimonials {
-	background-image: url("assets/images/testimonials-bg.jpeg");
+	background-image: url("assets/images/IMAGE.png");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
