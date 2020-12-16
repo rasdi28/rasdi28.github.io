@@ -1,0 +1,56 @@
+#header {
+    background-color: #dae0e5;
+    padding-bottom: 150px;
+}
+
+#section{
+    margin-top: -70px;
+    font-size: 20;
+    text-align: justify;
+    text
+    
+      
+}
+.container{
+    background-color: #f8f9fa;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    position:absolute;
+}
+
+#footer{
+    margin-top: 100px;
+}
+
+.card {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+img.card-img-top{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+
+}
+
+h5.card-title{
+    text-align: center;
+}
+
+p.card-text{
+    text-align: center;
+}
