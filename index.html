@@ -17,9 +17,10 @@
   </div>
 <div class="navbar">
 <button class="tablink" onclick="openPage('Welcome', this, 'white')"id="defaultOpen">Welcome</button>
-<button class="tablink" onclick="openPage('News', this, 'white')" >News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'white')">Contact</button>
+<button class="tablink" onclick="openPage('Profile', this, 'white')" >Profile</button>
+<button class="tablink" onclick="openPage('Resume', this, 'white')" >Resume</button>
 <button class="tablink" onclick="openPage('About', this, 'white')">About</button>
+<button class="tablink" onclick="openPage('Contact', this, 'white')">Contact</button>
 </div>
 <div id="Welcome" class="tabcontent">
   <h3>Hello, I'am </h3>
@@ -32,22 +33,44 @@
   <a href="https://drive.google.com/file/d/1qUcDwilvjR12pJoYxQQvfzxM_imKX2Bs/view?usp=sharing">Download CV</a>
 </div>
 
-<div id="News" class="tabcontent">
-  <h3>News</h3>
-  <p>Some news this fine day!</p> 
+<div id="Profile" class="tabcontent">
+  <h3>Profile</h3>
+  <p>Some Profile this fine day!</p> 
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
+<div id="Resume" class="tabcontent">
+  <h3>Resume</h3>
+  <p>Some Profile this fine day!</p> 
 </div>
 
 <div id="About" class="tabcontent">
-  <h3>About</h3>
+  <h1>About</h1>
+  
   <p>Who we are and what we do.</p>
 </div>
 
+<div id="Contact" class="tabcontent">
+  <h2>My <span>Contact</span></h2>
+  <hr class="contact">
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1766.156500114966!2d107.04626631615767!3d-6.408521817305457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6996fb9414c1b3%3A0x99a3a91375e4dba0!2sSarongge-Jatisari!5e0!3m2!1sid!2sid!4v1609828924770!5m2!1sid!2sid" width="800" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  <p>
+    <h4>CILEUNGSI-KAB BOGOR, INDONESIA</h4>
+    <P>
+      kp sarongge RT 14/07 desa Jatisari Kec Cileungsi Kab Bogor
+    </P>
+    <p><b>16820</b></p>
+  </p>
+  <p class="telepon">
+    +62 857 1705 9061 | Rasdiabdulrohman@gmail.com
+  </p>
+
+ 
+</div>
+
 <script>
+
 function openPage(pageName,elmnt,color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -64,6 +87,10 @@ function openPage(pageName,elmnt,color) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+
 </script>
+
 </body>
-</html>
+</html> 

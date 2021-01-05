@@ -57,7 +57,7 @@ p.a {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 20%;
 }
 
 .tablink:hover {
@@ -69,7 +69,7 @@ p.a {
 
   color: black;
   display: none;
-  padding: 100px 20px;
+  padding: 30px 20px;
   height: 100%;
   width: 900px;
   margin-left: 380px;
@@ -86,12 +86,37 @@ p.a {
 
 }
 
-#News {
+#Profile {
+  background-color: white;
+}
+
+
+#Resume {
   background-color: white;
 }
 
 #Contact {
   background-color: white;
+  text-align: center;
+  overflow-y: scroll;
+  height: 450px;
+}
+
+hr.contact {
+  border: 2px solid;
+  width: 20%;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+p.telepon {
+  margin-top: 50px;
+}
+
+.map {
+  margin: 1px 40px;
+
+
 }
 
 #About {
