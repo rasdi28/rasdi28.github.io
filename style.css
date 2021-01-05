@@ -26,6 +26,17 @@ html {
   margin-top: -14px;
 }
 
+p.nomor {
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+p.a {
+  font-style: italic;
+  font-size: 14px;
+}
+
 .navbar {
   width: 900px;
   margin-left: 380px;

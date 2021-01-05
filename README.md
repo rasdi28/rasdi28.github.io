@@ -1,6 +1,6 @@
 # <center> PORTFOLIO
  
-![rasdi abdulrohman](assets/images/image2598.png)
+
 
 
 ___
